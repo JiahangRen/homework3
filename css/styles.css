@@ -140,11 +140,6 @@ header p {
     grid-column: 2 / span 1;
 }
 
-img{
-    width: 100%;
-}
-
-
 .about-image, .method-image, .clients-image, .contact-image {
     /*Your code here */
     /* See documentation for mobile view */
