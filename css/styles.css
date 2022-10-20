@@ -49,7 +49,7 @@ nav a:hover{
   position: relative;
   /*Your code here - place 500px left and 40px higher */;
 
-  left: 500px;
+  left: -500px;
   /*bottom: 40px;*/
   top: -40px;
 }
@@ -91,11 +91,12 @@ footer{
 nav{
   background-color: #ddd;
   padding: 20px 0;
+  text-align: left;
   /*text-align: center;*/
   /*Your code here*/
   /*Span the top row*/
   grid-column: 1 / -1;
-  text-align: left;
+  grid-row: 1;
 }
 
 header{
@@ -112,7 +113,6 @@ header{
   background-image: url(../images/header.jpg);
   min-height: 400px;
   grid-column: 1 / -1;
-  /*grid-row:2 /span 1;*/
 }
 
 header p{
@@ -136,6 +136,10 @@ header p{
   /*Your code here */
   /* See documentation for mobile view */
   grid-column: 2 / span 1;
+}
+
+img{
+  width:100%;
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
