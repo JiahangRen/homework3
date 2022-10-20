@@ -134,14 +134,14 @@ header p {
 
 }
 
-img {
-    width: 100%;
-}
-
 .about, .method, .clients, .contact {
     /*Your code here */
     /* See documentation for mobile view */
     grid-column: 2 / span 1;
+}
+
+img{
+    width: 100%;
 }
 
 
