@@ -134,6 +134,10 @@ header p {
 
 }
 
+img {
+    width: 100%;
+}
+
 .about, .method, .clients, .contact {
     /*Your code here */
     /* See documentation for mobile view */
