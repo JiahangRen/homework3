@@ -97,7 +97,7 @@ nav {
     /*Your code here*/
     /*Span the top row*/
     grid-column: 1 / -1;
-    grid-row: 1 / span 1;
+    grid-row: 1 ;
 }
 
 header {
@@ -132,6 +132,10 @@ header p {
     grid-template-columns: 1fr 5fr 1fr;
     row-gap: 30px;
 
+}
+
+img {
+    width: 100%;
 }
 
 .about, .method, .clients, .contact {
@@ -188,6 +192,12 @@ header p {
 
 @media all and (min-width: 800px) {
 
+    .skip a:focus{
+        position: absolute;
+        top:20px;
+        left:0;
+    }
+
     .container {
         /*Your code here */
         /* See documentation for desktop view */
@@ -201,6 +211,10 @@ header p {
         text-align: right;
         padding: 35px 0px;
         align-self: center;
+    }
+
+    img {
+        width: 100%;
     }
 
     .about, .clients, .method-image, .contact-image {
@@ -221,7 +235,8 @@ header p {
 
 @media screen and (prefers-reduced-motion: reduce) {
     html {
-        scroll-behavior: auto; /* Removes scroll animation */
+        scroll-behavior: auto;
+        /* Removes scroll animation */
     }
 
     .skip a {
